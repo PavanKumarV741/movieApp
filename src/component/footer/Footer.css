@@ -1,0 +1,15 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.728);
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.icons{
+    /* position: relative;
+    bottom: 0; */
+    width: 5vw;
+    height: 6vh;
+    margin: 10px;
+}

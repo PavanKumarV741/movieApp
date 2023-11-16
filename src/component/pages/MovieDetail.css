@@ -1,0 +1,44 @@
+.movieDetails{
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    margin: 0px 20px;
+}
+.movieDetailLeft{
+    margin: 25px;
+    display: flex;
+}
+.poster_box{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    min-width: 22vw;
+    height: 65vh;
+    margin: 0px 10px;
+    padding-top: 80px;
+}
+
+.backdropImg{
+    width: 60vmax;
+    height: 100%;
+    object-fit: fill;
+}
+.backdropImg:hover{
+    cursor: pointer;
+    transition: transform .5s;
+    transform: scale(1.2);
+}
+.overview{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.posterImg{
+    width:20vmax;
+    height: 60vh;
+    position: relative;
+    top: 5vh;
+    right: 20vw;
+    z-index: 500;
+    cursor: pointer;
+}

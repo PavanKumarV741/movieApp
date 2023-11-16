@@ -1,0 +1,10 @@
+.notfound{
+   min-width: 100%;
+   /* height: 20px; */
+
+}
+.notFoundImg{
+    width: 95vw;
+    height: 50vh;
+    object-fit: contain;
+}

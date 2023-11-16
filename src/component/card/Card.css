@@ -1,0 +1,104 @@
+.card{
+    overflow: hidden;
+    margin: 10px 10px;
+    padding: 1rem 5vw;
+}
+.cards{
+    /* margin: 1px 10px; */
+    display: inline-block;
+    transition: transform .5s;
+    transform: scale-Y(1.2);
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0.5rem 0.5rem;
+    cursor:pointer;
+    min-width: 20vw;
+    height: 65vh;
+    z-index:0;
+    border: 1px solid rgb(99, 99, 99);  
+}
+.wishlistedtag{
+    background-color: rgba(117, 109, 68, 0.379);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+.wishlist{
+    margin:  20px 0px;
+}
+
+.cardimg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cards_overlay{
+    position: absolute;
+    padding: 2px 2px;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    opacity: 0;
+    transition: visibility 0s opacity 0.5s;
+    transition:  5s;
+    font-size: large;
+    padding: 20px;
+}
+
+.cards_overlay:hover {
+    visibility: visible;
+    opacity: 1;
+    background-color: rgba(240, 248, 255, 0.925);
+    transition: transform 3s;
+}
+.star{
+    color: green;
+    background-color: green;
+    height: 15px;
+    width: 15px;
+}
+.addToFav{
+   margin: 10px 0px;
+   opacity: 0.1;
+   position: absolute;
+   right: 0px;
+}
+
+.addToFav:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cards:hover{
+    transform: scale(1.2);
+    z-index: 1000;
+}
+.removeFav{
+    position: absolute;
+    right: 0px;
+}
+.card_title{
+    padding: 2px;
+    font-size: x-large;
+}
+.card_info{
+    color: blue;
+}
+.gototop{
+    text-align: right;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: azure;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+}

@@ -1,0 +1,46 @@
+.home{
+ background-color: cadetblue; 
+ margin: 0;
+ padding: 0;  
+}
+.posterImage{
+    position: relative;
+    margin: 1.2rem 0rem;
+    object-fit: fill;
+}
+.image{
+    max-height: 60vh;
+    max-width: 100vw;
+}
+.search{
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    z-index: 1000;
+    padding: 8px;
+}
+.searchtext{
+    position: fixed;
+    right: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 15px;
+    padding-right: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    background-color: rgba(240, 248, 255, 0.644);
+}
+@media screen and (min-width:0px ) and (max-width: 600px){
+    .searchtext{
+        position: relative;
+        position: fixed;
+        top: 65px;
+        left: 10px;
+        overflow: hidden;
+    }
+    .posterImage{
+        position: relative;
+        margin-top: 8rem;
+        object-fit: fill;
+    }
+}
