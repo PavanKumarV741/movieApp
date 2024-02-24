@@ -25,7 +25,7 @@ function Card(props) {
     
     const movieList=movies.filter((movie)=>{
         return(
-            searchedMovie.toLowerCase === "" ? movie : movie.title.toLowerCase().includes(searchedMovie)
+            searchedMovie.toLowerCase() == "" ? movie : movie.title.toLowerCase().includes(searchedMovie.toLowerCase())
         )
     }).map((movie)=>( 
                 <div className='cards' key={movie.id} >

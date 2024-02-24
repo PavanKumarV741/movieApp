@@ -7,9 +7,9 @@ import MovieDetail from './component/pages/MovieDetail';
 function App() {
   return (
     <div className="App">
-
         <Router>
           <Header/>
+          <hr/>
           <Routes>
             <Route index element={<Home/>}></Route>
             <Route path='movie/:id' element={<MovieDetail/>}></Route>

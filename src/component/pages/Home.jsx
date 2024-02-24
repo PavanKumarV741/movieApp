@@ -16,6 +16,7 @@ function Home() {
         try{
             const dataList=await axios.get("https://api.themoviedb.org/3/movie/popular?api_key=01682d2fe1bb43f001fe43f6f5b3fae4&language=en-US")
             setPopularMovies(dataList.data.results)
+            console.log(dataList)
         }
         catch(err){
             console.log(err)
